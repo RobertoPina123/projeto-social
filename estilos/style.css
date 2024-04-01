@@ -33,6 +33,7 @@ main {
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+    
 }
 
 #tela {
@@ -49,4 +50,17 @@ main {
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;
+}
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img:hover {
+    border: 4px solid rgba(255, 255, 255, 0.73);
+    transform: translate(-5px, -5px);
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.618);
+    transition: transform 1s, border 2s;
+
 }
